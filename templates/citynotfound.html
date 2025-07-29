@@ -6,28 +6,6 @@
     <title>City not found</title>
     <!-- Google tag (gtag.js) -->
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-R7WDBM1VHF"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
-      gtag("js", new Date());
-
-      // Basic GA4 config
-      gtag("config", "G-R7WDBM1VHF", { send_page_view: false });
-
-      // ✅ Explicit page_view event
-      gtag("event", "page_view", {
-        page_title: document.title,
-        page_location: window.location.href,
-        page_path: window.location.pathname,
-      });
-    </script>
 
     <link
       href="{{url_for('static',filename='styles/style.css')}}"
